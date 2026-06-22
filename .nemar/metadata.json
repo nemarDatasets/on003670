@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Dataset of Concurrent EEG, ECG, and Behavior with Multiple Doses of transcranial Electrical Stimulation - BIDS",
+  "description": "This dataset combines high-density electroencephalography (EEG) with concurrent physiological recordings (ECG, EOG) and continuous behavioral metrics during transcranial electrical stimulation (tES). The study includes 19 participants performing a vigilance task across 62 sessions, with systematic application of nine HD-tES montages targeting three cortical regions (frontal, motor, parietal) using three waveforms (DC, 5 Hz, 30 Hz), yielding over 783 stimulation trials. The dataset supports investigation of tES effects on brain activity, physiology, fatigue, and cognitive performance.",
+  "methods_description": "EEG, ECG, and EOG were recorded concurrently over 70-minute sessions while participants performed a continuous tracking task (CTT). Participants received high-definition transcranial electrical stimulation (HD-tES) with nine different montage-waveform combinations (three cortical targets × three waveforms: DC, 5 Hz, 30 Hz). Experiment 1 included three 70-minute sessions with four trials per stimulation type; Experiment 2 included two 70.5-minute sessions with 20 trials per stimulation type. Demographic and self-reported wellness questionnaires were collected before and after each session.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,12 +19,30 @@
     "Abhishek Datta": {},
     "Marom Bikson": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003670.v1.1.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "transcranial electrical stimulation"
+    },
+    {
+      "term": "tDCS"
+    },
+    {
+      "term": "tACS"
+    },
+    {
+      "term": "ECG"
+    },
+    {
+      "term": "vigilance task"
+    },
+    {
+      "term": "cognitive performance"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.3837212",
       "identifier_type": "DOI",
@@ -47,6 +67,11 @@
       "identifier": "10.5281/zenodo.3840617",
       "identifier_type": "DOI",
       "relation_type": "HasPart"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003670.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -79,12 +104,12 @@
       "award_title": "NIH-G-RISE"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "104.7 GB (510 files)"
   ],
   "formats": [
     ".bat",
@@ -103,44 +128,8 @@
     ".seg",
     ".set",
     ".tsv",
-    ".txt"
+    ".txt",
+    ".yml"
   ],
-  "description": "A comprehensive dataset combining high-density electroencephalography (EEG) with concurrent electrocardiography (ECG), electrooculography (EOG), and continuous behavioral metrics during transcranial electrical stimulation (tES). The dataset encompasses 19 participants across 62 sessions performing a vigilance task, with systematic application of nine HD-tES montages targeting three cortical regions (frontal, motor, parietal) using three waveforms (DC, 5 Hz, 30 Hz), yielding over 783 stimulation trials. This resource enables investigation of tES dose-response relationships and interactions between stimulation parameters, brain state, physiology, and cognitive performance.",
-  "methods_description": "EEG, ECG, and EOG were recorded concurrently over 70-minute sessions while participants performed a continuous tracking task (CTT) maintaining a ball at screen center. Participants received periodic 30-second stimulation blocks with nine different HD-tES montage combinations. Experiment 1 included three 70-minute sessions with all 9 stimulation types (3 per session, 4 trials each). Experiment 2 included two 70.5-minute sessions with 2 stimulation types and 20 trials per type. Demographic and self-reported wellness questionnaires were collected before and after each session.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "transcranial electrical stimulation"
-    },
-    {
-      "term": "tES"
-    },
-    {
-      "term": "ECG"
-    },
-    {
-      "term": "vigilance task"
-    },
-    {
-      "term": "brain stimulation"
-    },
-    {
-      "term": "high-definition tES"
-    },
-    {
-      "term": "EOG"
-    },
-    {
-      "term": "HD-tES"
-    },
-    {
-      "term": "continuous tracking task"
-    },
-    {
-      "term": "multimodal"
-    }
-  ],
-  "source_hash": "444fcea8c871ba106767fd57742f7118a8e54c6e22e6f6bbcbfeae9e28238e74"
+  "source_hash": "6fa60d82f7c71a6eb772518798551b416f52b5db40f30724ae0fd9886902fd51"
 }
