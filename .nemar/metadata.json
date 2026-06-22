@@ -1,54 +1,146 @@
 {
   "version": "2.0",
-  "dataset_id": "on003670",
-  "source": "openneuro",
-  "source_id": "ds003670",
+  "pipeline_stage": "validated",
   "title": "Dataset of Concurrent EEG, ECG, and Behavior with Multiple Doses of transcranial Electrical Stimulation - BIDS",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
-    "Nigel Gebodh": {},
+    "Nigel Gebodh": {
+      "orcid": "0000-0001-5457-5641",
+      "affiliations": [
+        {
+          "name": "The City College of New York"
+        }
+      ]
+    },
     "Zeinab Esmaeilpour": {},
     "Abhishek Datta": {},
     "Marom Bikson": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003670.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.5281/zenodo.3837212",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003670",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003670",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.5281/zenodo.3840615",
+      "identifier_type": "DOI",
+      "relation_type": "HasPart"
+    },
+    {
+      "identifier": "10.5281/zenodo.3840617",
+      "identifier_type": "DOI",
+      "relation_type": "HasPart"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
       "funder_name": "X (formerly Google X)"
     },
     {
-      "funder_name": "NIH R01NS095123"
+      "funder_name": "NIH",
+      "award_number": "R01NS095123"
     },
     {
-      "funder_name": "NIH R01NS101362"
+      "funder_name": "NIH",
+      "award_number": "R01NS101362"
     },
     {
-      "funder_name": "NIH R01NS112996"
+      "funder_name": "NIH",
+      "award_number": "R01NS112996"
     },
     {
-      "funder_name": "NIH R01MH111896"
+      "funder_name": "NIH",
+      "award_number": "R01MH111896"
     },
     {
-      "funder_name": "NIH R01MH109289"
+      "funder_name": "NIH",
+      "award_number": "R01MH109289"
     },
     {
-      "funder_name": "NIH-G-RISE T32GM136499"
+      "funder_name": "NIH",
+      "award_number": "T32GM136499",
+      "award_title": "NIH-G-RISE"
     }
   ],
-  "acknowledgements": "Portions of this study were funded by X (formerly Google X), the Moonshot Factory. The funding source had no influence on study conduction or result evaluation. MB is further supported by grants from the National Institutes of Health: R01NS101362, R01NS095123, R01NS112996, R01MH111896, R01MH109289, and (to NG) NIH-G-RISE T32GM136499.\n\nWe would like to thank Yuxin Xu and Michaela Chum for all their technical assistance."
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".bat",
+    ".cnt",
+    ".csv",
+    ".evt",
+    ".fdt",
+    ".gitattributes",
+    ".jpg",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".par",
+    ".pbl",
+    ".seg",
+    ".set",
+    ".tsv",
+    ".txt"
+  ],
+  "description": "A comprehensive dataset combining high-density electroencephalography (EEG) with concurrent electrocardiography (ECG), electrooculography (EOG), and continuous behavioral metrics during transcranial electrical stimulation (tES). The dataset encompasses 19 participants across 62 sessions performing a vigilance task, with systematic application of nine HD-tES montages targeting three cortical regions (frontal, motor, parietal) using three waveforms (DC, 5 Hz, 30 Hz), yielding over 783 stimulation trials. This resource enables investigation of tES dose-response relationships and interactions between stimulation parameters, brain state, physiology, and cognitive performance.",
+  "methods_description": "EEG, ECG, and EOG were recorded concurrently over 70-minute sessions while participants performed a continuous tracking task (CTT) maintaining a ball at screen center. Participants received periodic 30-second stimulation blocks with nine different HD-tES montage combinations. Experiment 1 included three 70-minute sessions with all 9 stimulation types (3 per session, 4 trials each). Experiment 2 included two 70.5-minute sessions with 2 stimulation types and 20 trials per type. Demographic and self-reported wellness questionnaires were collected before and after each session.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "transcranial electrical stimulation"
+    },
+    {
+      "term": "tES"
+    },
+    {
+      "term": "ECG"
+    },
+    {
+      "term": "vigilance task"
+    },
+    {
+      "term": "brain stimulation"
+    },
+    {
+      "term": "high-definition tES"
+    },
+    {
+      "term": "EOG"
+    },
+    {
+      "term": "HD-tES"
+    },
+    {
+      "term": "continuous tracking task"
+    },
+    {
+      "term": "multimodal"
+    }
+  ],
+  "source_hash": "444fcea8c871ba106767fd57742f7118a8e54c6e22e6f6bbcbfeae9e28238e74"
 }
