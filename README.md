@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003670-blue)](https://doi.org/10.82901/nemar.on003670)
+
 **Synopsis**
 This is the **GX dataset** formatted to comply with [BIDS](https://bids.neuroimaging.io/) standard format. 
 
