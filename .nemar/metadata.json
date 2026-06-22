@@ -3,7 +3,7 @@
   "pipeline_stage": "validated",
   "title": "Dataset of Concurrent EEG, ECG, and Behavior with Multiple Doses of transcranial Electrical Stimulation - BIDS",
   "description": "This dataset combines high-density electroencephalography (EEG) with concurrent physiological recordings (ECG, EOG) and continuous behavioral metrics during transcranial electrical stimulation (tES). The study includes 19 participants performing a vigilance task across 62 sessions, with systematic application of nine HD-tES montages targeting three cortical regions (frontal, motor, parietal) using three waveforms (DC, 5 Hz, 30 Hz), yielding over 783 stimulation trials. The dataset supports investigation of tES effects on brain activity, physiology, fatigue, and cognitive performance.",
-  "methods_description": "EEG, ECG, and EOG were recorded concurrently over 70-minute sessions while participants performed a continuous tracking task (CTT). Participants received high-definition transcranial electrical stimulation (HD-tES) with nine different montage-waveform combinations (three cortical targets × three waveforms: DC, 5 Hz, 30 Hz). Experiment 1 included three 70-minute sessions with four trials per stimulation type; Experiment 2 included two 70.5-minute sessions with 20 trials per stimulation type. Demographic and self-reported wellness questionnaires were collected before and after each session.",
+  "methods_description": "EEG, ECG, and EOG were recorded concurrently over 70-minute sessions while participants performed a continuous tracking task (CTT). Participants received high-definition transcranial electrical stimulation (HD-tES) with nine different montage-waveform combinations (three cortical targets × three waveforms: DC, 5 Hz, 30 Hz). Experiment 1 included three 70-minute sessions with four trials per stimulation type; Experiment 2 included two 70.5-minute sessions with 20 trials per stimulation type. Demographic data and self-reported wellness questionnaires were collected before and after each session.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -79,29 +79,31 @@
       "funder_name": "X (formerly Google X)"
     },
     {
-      "funder_name": "NIH",
+      "funder_name": "National Institutes of Health",
       "award_number": "R01NS095123"
     },
     {
-      "funder_name": "NIH",
+      "funder_name": "National Institutes of Health",
       "award_number": "R01NS101362"
     },
     {
-      "funder_name": "NIH",
+      "funder_name": "National Institutes of Health",
       "award_number": "R01NS112996"
     },
     {
-      "funder_name": "NIH",
+      "funder_name": "National Institutes of Health",
       "award_number": "R01MH111896"
     },
     {
-      "funder_name": "NIH",
+      "funder_name": "National Institutes of Health",
       "award_number": "R01MH109289"
     },
     {
-      "funder_name": "NIH",
-      "award_number": "T32GM136499",
-      "award_title": "NIH-G-RISE"
+      "funder_name": "National Institutes of Health",
+      "award_number": "T32GM136499"
+    },
+    {
+      "funder_name": "X Development LLC"
     }
   ],
   "resource_type_specific": "EEG Dataset",
