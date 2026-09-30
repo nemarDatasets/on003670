@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Dataset of Concurrent EEG, ECG, and Behavior with Multiple Doses of transcranial Electrical Stimulation - BIDS",
-  "description": "This dataset combines high-density electroencephalography (EEG) with concurrent physiological recordings (ECG, EOG) and continuous behavioral metrics during transcranial electrical stimulation (tES). The study includes 19 participants performing a vigilance task across 62 sessions, with systematic application of nine HD-tES montages targeting three cortical regions (frontal, motor, parietal) using three waveforms (DC, 5 Hz, 30 Hz), yielding over 783 stimulation trials. The dataset supports investigation of tES effects on brain activity, physiology, fatigue, and cognitive performance.",
-  "methods_description": "EEG, ECG, and EOG were recorded concurrently over 70-minute sessions while participants performed a continuous tracking task (CTT). Participants received high-definition transcranial electrical stimulation (HD-tES) with nine different montage-waveform combinations (three cortical targets × three waveforms: DC, 5 Hz, 30 Hz). Experiment 1 included three 70-minute sessions with four trials per stimulation type; Experiment 2 included two 70.5-minute sessions with 20 trials per stimulation type. Demographic data and self-reported wellness questionnaires were collected before and after each session.",
+  "description": "A BIDS-formatted dataset of high-density EEG recorded concurrently with ECG, EOG, and continuous behavioral vigilance measures (compensatory tracking task) during transcranial electrical stimulation. Nine HD-tES montages targeting frontal, motor, and parietal regions with DC, 5 Hz, and 30 Hz waveforms were applied across 62 sessions with 19 participants, totaling more than 783 stimulation trials. The dataset supports study of tDCS/tACS location and frequency effects, brain state, physiology, fatigue, and cognitive performance.",
+  "methods_description": "Over 70-minute sessions, EEG, ECG, and EOG were recorded while participants performed a continuous tracking task (keeping a ball at the screen center). Participants were periodically stimulated for 30 s with low-intensity HD-tES. Experiment 1 gave three stimulation types per session with 4 trials each; Experiment 2 gave 2 stimulation types with 20 trials per type. Demographic data and pre/post-session wellness questionnaires were collected, and select sessions were repeated to test reliability.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -24,37 +24,36 @@
       "term": "EEG"
     },
     {
-      "term": "transcranial electrical stimulation"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "tDCS"
+      "term": "Transcranial Direct Current Stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D065908"
     },
     {
-      "term": "tACS"
+      "term": "transcranial alternating current stimulation"
     },
     {
       "term": "ECG"
     },
     {
-      "term": "vigilance task"
+      "term": "vigilance"
     },
     {
-      "term": "cognitive performance"
+      "term": "compensatory tracking task"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.3837212",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDerivedFrom"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on003670",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003670",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -72,6 +71,11 @@
       "identifier": "10.18112/openneuro.ds003670.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003670",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -79,31 +83,28 @@
       "funder_name": "X (formerly Google X)"
     },
     {
-      "funder_name": "National Institutes of Health",
+      "funder_name": "NIH",
       "award_number": "R01NS095123"
     },
     {
-      "funder_name": "National Institutes of Health",
+      "funder_name": "NIH",
       "award_number": "R01NS101362"
     },
     {
-      "funder_name": "National Institutes of Health",
+      "funder_name": "NIH",
       "award_number": "R01NS112996"
     },
     {
-      "funder_name": "National Institutes of Health",
+      "funder_name": "NIH",
       "award_number": "R01MH111896"
     },
     {
-      "funder_name": "National Institutes of Health",
+      "funder_name": "NIH",
       "award_number": "R01MH109289"
     },
     {
-      "funder_name": "National Institutes of Health",
+      "funder_name": "NIH",
       "award_number": "T32GM136499"
-    },
-    {
-      "funder_name": "X Development LLC"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -111,7 +112,7 @@
     "eeg"
   ],
   "sizes": [
-    "104.7 GB (510 files)"
+    "97.53 GB (510 files)"
   ],
   "formats": [
     ".bat",
